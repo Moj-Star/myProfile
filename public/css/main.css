@@ -1,0 +1,56 @@
+#body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: thistle;
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-style: 15px;
+    margin: 4px 5px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3px;
+
+}
+.btn-primary{background-color: dodgerblue;}
+.card{
+    text-align: center;
+    width: 200px;
+    margin-top: 30px;
+    height: 50vh;
+    padding-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0,  0, 0) 0 6px 36px rgba(0, 0, 0, 0.13);
+    background-color: white;
+}
+.card_image{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: turquoise;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0,  0, 0) 0 6px 36px rgba(0, 0, 0, 0.13);
+    border: 3px solid white;
+
+}
+.card_title{
+    margin: 0;
+}
+.card_job{
+    color: turquoise;
+}
